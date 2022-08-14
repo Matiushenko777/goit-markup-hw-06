@@ -182,15 +182,16 @@ integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8
     <footer class="end">
         <div class="footer-container container">
         <div class="contact-wrap">
+            <address class="contacts-address"> 
                 <a class="footer-logo" href="">
                     Web<span class="footer-logoColor">Studio</span>
                 </a>
-                <address class="contacts-address"> 
                     <ul class="contacts-address-list">
                 <li class="contacts-address-item"> <a href="" class="contacts-address-map">м. Київ, пр-т Лесі Українки, 26</a></li> 
                 <li class="contacts-address-item"> <a href="mailto:info@example.com" class="contacts-address-mail">info@example.com</a></li>
                 <li class="contacts-address-item"> <a href="tel:+380991111111" class="contacts-address-tel">+38 099 111 11 11</a></li>
                     </ul>
+                </address>
         </div>
         <div class="footer-box">
             <p class="connect">ПРИЄДНУЙТЕСЬ</p>
@@ -223,9 +224,8 @@ integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8
         </div>
         <div class="footer-box-second">
             <p class="subcribe">Підпишіться на розсилку</p>
-            <form class="footer-form"></form>
+            <form class="footer-form">
             <div class="subcribe-btn">
-            <div class="footer-field">
                 <label class="footer-label" for="footer-label-email"></label>
                 <input 
                 type="text" 
@@ -233,16 +233,15 @@ integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8
                 name="footer-label-email" 
                 placeholder="E-mail" 
                 id="footer-label-email">
-            </div>
-                <button type="Підписатися" class="footer-icon-button">
+                <button type="submit" name="Підписатися" class="footer-icon-button">
                     <svg class="footer-icon-btn" width="144" height="30">
                         <use href="./img/symbol-defs.svg#icon-footer-btn"></use>
                     </svg>
                 </button>
+            </form>
             </div>
         </div>
     </div>
-    </address>
     </footer>
 </body>
 </html>
